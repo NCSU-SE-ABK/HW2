@@ -25,4 +25,4 @@ jobs:
 
       - name: Run autopep8
         run: |
-          autopep8 --in-place --recursive main
+          autopep8 --in-place --recursive hw2_debuggin.py
