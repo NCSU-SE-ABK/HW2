@@ -3,5 +3,5 @@
 <a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/badge/License-MIT-green.svg"/></a>
 <a href="https://www.linux.org/"> <img src="https://img.shields.io/badge/platform-linux-orange"/></a>
 ![AutoPep8](https://img.shields.io/badge/AutoPep8-checked-brightgreen)
-![Pylint](https://img.shields.io/badge/Pylint-compliant-yellowgreen)
+![Pylint](https://img.shields.io/badge/Pylint-checked-yellowgreen)
 ![Pyright](https://img.shields.io/badge/Pyright-checked-blue)
