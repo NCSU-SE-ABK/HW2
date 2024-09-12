@@ -1,7 +1,7 @@
 '''
 This module implements the merge sort alogorithm using helper functions
 '''
-import sys,logging
+import logging
 import rand
 
 logging.basicConfig(filename='debugging.log',encoding='utf-8', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
