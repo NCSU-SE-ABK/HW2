@@ -25,10 +25,7 @@ def merge_sort(input_arr):
     result = re_combine(left_sorted,right_sorted)
     # result = re_combine(merge_sort(arr[:half]), merge_sort(arr[half:]))
     logger.debug("result after combine: %r",result)
-    
     return result
-
-
 def re_combine(left_arr, right_arr):
     '''
     this function re_combine two sorted array into one sorted array
