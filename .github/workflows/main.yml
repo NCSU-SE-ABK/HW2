@@ -1,0 +1,29 @@
+name: Code Formatting
+
+on:
+  push:
+    branches:
+      - main  # Or the branch you want to target
+  pull_request:
+    branches:
+      - main  # Or the branch you want to target
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install autopep8
+
+      - name: Run autopep8
+        run: |
+          autopep8 --in-place --recursive your_code_directory
