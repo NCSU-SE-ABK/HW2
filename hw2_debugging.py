@@ -14,7 +14,6 @@ def merge_sort(input_arr):
     '''
     logger= logging.getLogger(__name__)
     logger.debug("merge_sort called with: %r", input_arr)
-    
     if len(input_arr) == 1:
         logger.debug("Single element array returning: %r", input_arr)
         return input_arr
