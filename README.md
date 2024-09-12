@@ -2,6 +2,7 @@
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/python-3.13-blue"/></a>
 <a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/badge/License-MIT-green.svg"/></a>
 <a href="https://www.linux.org/"> <img src="https://img.shields.io/badge/platform-linux-orange"/></a>
+<a href="https://github.com/NCSU-SE-ABK/HW2/actions/workflows/pylint.yml"><img src="https://github.com/NCSU-SE-ABK/HW2/actions/workflows/pylint.yml/badge.svg" /></a> 
 ![AutoPep8](https://img.shields.io/badge/AutoPep8-checked-brightgreen)
 ![Pylint](https://img.shields.io/badge/Pylint-checked-yellowgreen)
 ![Pyright](https://img.shields.io/badge/Pyright-checked-blue)
