@@ -20,7 +20,7 @@ def random_array(arr):
         logger.debug("Processing index: %r",i)
 
         shuffled_num = subprocess.run(
-            ["/opt/homebrew/bin/shuf", "-i1-20", "-n1"], capture_output=True,check=True)
+            ["shuf", "-i1-20", "-n1"], capture_output=True,check=True)
         # logger.debug("shuffled stdout: %r",shuffled_num)
         arr[i] = int(shuffled_num.stdout)
         logger.debug("Assigned random number %r to arr[%r]", arr[i],i)
